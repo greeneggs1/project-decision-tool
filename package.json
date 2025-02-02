@@ -1,1 +1,25 @@
-
+{
+  `path`: `package.json`,
+  `repo`: `project-decision-tool`,
+  `owner`: `greeneggs1`,
+  `branch`: `main`,
+  `content`: `{
+  \"name\": \"project-decision-tool\",
+  \"version\": \"1.0.0\",
+  \"description\": \"Interactive decision tool for project evaluation\",
+  \"main\": \"src/index.js\",
+  \"dependencies\": {
+    \"react\": \"^17.0.2\",
+    \"react-dom\": \"^17.0.2\",
+    \"lucide-react\": \"^0.263.1\",
+    \"tailwindcss\": \"^2.2.19\"
+  },
+  \"scripts\": {
+    \"start\": \"react-scripts start\",
+    \"build\": \"react-scripts build\",
+    \"test\": \"react-scripts test\",
+    \"eject\": \"react-scripts eject\"
+  }
+}`,
+  `message`: `Add package.json with initial dependencies`
+}
