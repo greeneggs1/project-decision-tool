@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { ProjectDecisionTool } from './components/ProjectDecisionTool';
+function ProjectDecisionTool() {
+  return React.createElement('div', null, 'Hello from ProjectDecisionTool');
+}
 
+// Render it via ReactDOM
 ReactDOM.render(
-  <React.StrictMode>
-    <ProjectDecisionTool />
-  </React.StrictMode>,
+  React.createElement(ProjectDecisionTool, null),
   document.getElementById('root')
 );
