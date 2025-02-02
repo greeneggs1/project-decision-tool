@@ -1,8 +1,9 @@
+// index.js
+
 function ProjectDecisionTool() {
-  return React.createElement('div', null, 'Hello from ProjectDecisionTool');
+  return React.createElement('div', null, 'Hello from ProjectDecisionTool (UMD)');
 }
 
-// Render it via ReactDOM
 ReactDOM.render(
   React.createElement(ProjectDecisionTool, null),
   document.getElementById('root')
